@@ -136,7 +136,7 @@ Hello from Docker Flask Lab!
 
 ### Docker Installation Verification
 
-![Docker Installed](docker-flask-lab/image Docker installed.png)
+![Docker Installed][(docker-flask-lab/image Docker installed.png)]
 
 ---
 
