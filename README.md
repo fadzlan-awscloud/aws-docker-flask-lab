@@ -130,13 +130,13 @@ Hello from Docker Flask Lab!
 
 ### Terraform Deployment
 
-![Terraform Apply](docker-flask-lab/image Terraform apply.png)
+![Terraform Apply](docker-flask-lab/image-Terraform-apply.png)
 
 ---
 
 ### Docker Installation Verification
 
-![Docker Installed][(docker-flask-lab/image Docker installed.png)]
+![Docker Installed](docker-flask-lab/image Docker installed.png)
 
 ---
 
