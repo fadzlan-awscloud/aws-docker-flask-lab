@@ -126,36 +126,40 @@ Hello from Docker Flask Lab!
 
 ---
 
-## Screenshots
+## 📷 Project Lab Proofs
 
-### Terraform Deployment
+### 1. Cloud Architecture Provisioning (Terraform Apply)
+This screenshot confirms that Terraform successfully parsed `main.tf` and spun up our virtual AWS infrastructure, network interfaces, and security firewalls.
 
 ![Terraform Apply](image-Terraform-apply.png)
 
 ---
 
-### Docker Installation Verification
+### 2. Remote Server Initialization (Docker Engine Verification)
+Proof of establishing a secure SSH connection to the remote Ubuntu cloud instance and verifying that the runtime container engine is correctly installed and active.
 
-![Docker Installed](docker-flask-lab/image Docker installed.png)
-
----
-
-### Docker Container Running
-
-![Container Running](docker-flask-lab/image Docker PS-container.png)
+![Docker Installed](image%20Docker%20installed.png)
 
 ---
 
-### Application Test
+### 3. Isolated Application Runtime (Active Container Verification)
+Confirmation that our target container environment is alive, mapped cleanly to port `5000`, and executing smoothly in detached background daemon mode.
 
-![Curl Test](docker-flask-lab/image Docker curl-http.png)
+![Container Running](image%20Docker%20PS-container.png)
 
 ---
 
-### Docker Hub Push
+### 4. Networking Route Test (Ingress Response Ingestion)
+Verification via localized HTTP payload execution testing that traffic correctly transits the network routing tables and returns expected server headers.
 
-![Docker Hub Push](docker-flask-lab/image docker Hub Push.png)
+![Curl Test](image%20Docker%20curl-http.png)
 
+---
+
+### 5. Artifact Distribution (Docker Hub Image Push)
+Final proof showing our system image payload successfully authenticated and shipped to the global cloud image architecture library.
+
+![Docker Hub Push](image%20Docker%20Hub%20Push.png)
 ---
 
 ## Docker Hub Repository
